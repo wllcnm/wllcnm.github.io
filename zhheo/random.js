@@ -1,0 +1,1 @@
+var posts=["2022/12/04/hexo博客中使用矢量图标设置社交媒体图标和网站图标/","2022/12/05/在spring boot中使用github图床和七牛云图床/","2022/12/03/我的第一篇文章/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
