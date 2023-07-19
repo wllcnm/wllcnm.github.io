@@ -580,3 +580,12 @@ li.card-archive-list-item {
     padding: 0.4rem 0.6rem !important;
 }
 
+/* 主页文章边框*/
+.layout>div.recent-posts>div.recent-post-item{
+    border: 1px solid #f7f9fe !important;
+    box-shadow: none !important;
+    transition: border-color 0.3s ease-in-out; /* 添加一个过渡效果 */
+}
+.layout>div.recent-posts>div.recent-post-item:hover{
+    border: 1px solid #6f42c1 !important;
+}
